@@ -1,6 +1,7 @@
 ### Hi there! <img src="https://emojis.slackmojis.com/emojis/images/1536351075/4594/blob-wave.gif" width="25"/>
 
-I'm **Eren**, a self-taught junior software developer and tech enthusiast.
+<!-- I'm **Eren**, a self-taught junior software developer and tech enthusiast. -->
+I'm **Eren**, a computer science student and tech enthusiast.
 
 I currently focus on building **web and mobile applications**.
 
