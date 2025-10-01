@@ -38,5 +38,10 @@ Outside of coding, I'm interested in technology and otaku culture.
 >_If you can count your money, work harder_
 
 #### Let's connect!
+
 [<img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white" />](https://www.instagram.com/_eren_mm) 
 [<img alt="Telegram" src="https://img.shields.io/badge/Telegram-%2300A3E0.svg?&style=for-the-badge&logo=telegram&logoColor=white" />](https://t.me/eren_deku)
+
+<!-- 
+  ![Profile Views](https://komarev.com/ghpvc/?username=eren-the-coder&style=for-the-badge&color=blue&label=Vues%20profil)
+-->
