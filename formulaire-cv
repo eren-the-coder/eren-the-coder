@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Création de CV</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .form-container {
+        background: #ffffff;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .form-container h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #333;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container textarea,
+    .form-container select {
+        width: 100%;
+        padding: 12px 15px;
+        margin: 8px 0 20px 0;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        transition: border 0.3s;
+    }
+
+    .form-container input:focus,
+    .form-container textarea:focus,
+    .form-container select:focus {
+        border-color: #4CAF50;
+        outline: none;
+    }
+
+    .form-container input[type="submit"] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background 0.3s;
+    }
+
+    .form-container input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    label {
+        color: #555;
+        font-weight: bold;
+    }
+
+    .section-title {
+        font-size: 18px;
+        color: #4CAF50;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #4CAF50;
+        padding-bottom: 5px;
+    }
+</style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Création de CV</h2>
+    <form action="Recuperation_de_donnees.php" method="post">
+
+        <div class="section-title">Informations personnelles</div>
+
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="Ex : Dupont" required>
+
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Ex : Marie" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Ex : marie.dupont@gmail.com" required>
+
+        <label for="tel">Téléphone</label>
+        <input type="text" id="tel" name="tel" placeholder="Ex : 06 12 34 56 78" required>
+
+        <label for="adresse">Adresse</label>
+        <input type="text" id="adresse" name="adresse" placeholder="Ex : 12 rue de la République, Paris" required>
+
+        <div class="section-title">Formation & Expérience</div>
+
+        <label for="diplome">Diplôme</label>
+        <select id="diplome" name="diplome" required>
+            <option value="">-- Sélectionnez votre diplôme --</option>
+            <option value="Baccalauréat">Baccalauréat</option>
+            <option value="Licence">Licence</option>
+            <option value="Master">Master</option>
+            <option value="Doctorat">Doctorat</option>
+            <option value="Autre">Autre</option>
+        </select>
+
+        <label for="competences">Compétences</label>
+        <textarea id="competences" name="competences" rows="3" placeholder="Ex : HTML, CSS, PHP, MySQL..." required></textarea>
+
+        <label for="experiences">Expériences</label>
+        <textarea id="experiences" name="experiences" rows="3" placeholder="Décrivez vos expériences professionnelles..." required></textarea>
+
+        <label for="formations">Formations</label>
+        <textarea id="formations" name="formations" rows="3" placeholder="Vos formations et parcours académique..." required></textarea>
+
+        <label for="langue">Langues</label>
+        <input type="text" id="langue" name="langue" placeholder="Ex : Français, Anglais, Espagnol" required>
+
+        <input type="submit" value="Créer le CV">
+    </form>
+</div>
+
+</body>
+</html>
