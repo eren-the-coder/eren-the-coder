@@ -7,7 +7,7 @@ I currently focus on building **web and mobile applications**.
 I'm fascinated by **artificial intelligence** and the idea of creating robust, smart and high-impact apps.  
 My long-term goal is to contribute to cutting-edge apps that help people in their daily lives.
 
-Outside of coding, I'm interested in technology and otaku culture.
+Outside of coding, I enjoy reading and animes.
 
 >_If you can count your money, work harder_
 
