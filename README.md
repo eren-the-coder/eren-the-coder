@@ -9,8 +9,6 @@ My long-term goal is to contribute to cutting-edge technologies that genuinely h
 
 Outside of coding, I enjoy reading and animes.
 
->_If you can count your money, work harder_
-
 #### Let's connect!
 
 [<img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white" />](https://www.instagram.com/_eren_mm) 
