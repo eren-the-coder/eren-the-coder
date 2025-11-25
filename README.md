@@ -4,8 +4,7 @@ I'm **Eren**, a computer science student and tech enthusiast.
 
 I currently focus on building **web and mobile applications**.
 
-I’m passionate about artificial intelligence and the idea of creating robust, smart, and impactful apps.
-
+I’m passionate about artificial intelligence and the idea of creating robust, smart, and impactful apps.<br/>
 My long-term goal is to contribute to cutting-edge technologies that genuinely help people in their daily lives.
 
 Outside of coding, I enjoy reading and animes.
